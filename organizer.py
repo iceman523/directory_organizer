@@ -2,12 +2,14 @@ import shutil
 import time
 import os
 
-directory = 'C:/Users/Vincent/Downloads'
+directory = 'C:/Users/Abhay/Downloads'
 
 actions = [
     (('.png', '.jpg', '.gif'), 'images'),
     (('.mp4', '.mov', '.avi'), 'videos'),
     (('.exe', '.rar', '.zip'), 'exe_zip'),
+    (('.csv', '.xlsx'), 'spreadsheets'),
+    (('.json', '.py', '.js'), 'scripts_data'),
     (('.wav', '.mp3', '.ogg', '.flac'), 'audio'),
     (None, 'other')
 ]
